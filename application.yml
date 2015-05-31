@@ -1,0 +1,15 @@
+
+security:
+  user:
+    password: password
+
+endpoints:
+  shutdown:
+    enabled: true
+  restart:
+    enabled: true
+
+eureka:
+  instance:
+    metadataMap:
+      instanceId: ${spring.application.name}:${spring.application.instance_id:${random.value}}
