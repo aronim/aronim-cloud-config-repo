@@ -20,11 +20,6 @@ eureka:
     metadataMap:
       instanceId: ${spring.application.name}:${spring.application.instance_id:${random.value}}
 
-server:
-  tomcat:
-    compression: on
-    compressableMimeTypes: text/html,text/xml,text/plain,application/json,application/xml,text/javascript,text/css
-
 spring:
   redis:
     host: localhost
@@ -35,3 +30,6 @@ spring:
     username: kdc
     password: kdc
     virtualHost: kdc
+  http:
+    gzip:
+      mimeTypes: text/html,text/xml,text/plain,application/json,application/xml,text/javascript,text/css
