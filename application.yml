@@ -17,6 +17,7 @@ eureka:
 server:
   tomcat:
     compression: on
+    compressableMimeTypes: text/html,text/xml,text/plain,application/json,application/xml,text/javascript,text/css
 
 spring:
   redis:
