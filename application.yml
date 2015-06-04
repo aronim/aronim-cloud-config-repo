@@ -30,6 +30,5 @@ spring:
     username: kdc
     password: kdc
     virtualHost: kdc
-  http:
-    gzip:
-      mimeTypes: text/html,text/xml,text/plain,text/javascript,text/css,application/json,application/xml,application/javascript
+  resources:
+    cachePeriod: 604800 # 7 days
