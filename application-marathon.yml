@@ -2,4 +2,4 @@
 eureka:
   client:
     serviceUrl:
-      defaultZone: http://kungfudev-cloud-registry.marathon.mesos:8761/eureka/
+      defaultZone: http://kdc-registry.marathon.mesos:8761/eureka/
