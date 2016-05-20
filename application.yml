@@ -3,7 +3,7 @@ logging:
   level:
     org.springframework: WARN
     org.hibernate: WARN
-    com.kungfudev.cloud: DEBUG
+    com.aronim.cloud: DEBUG
 
 security:
   user:

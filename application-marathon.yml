@@ -2,14 +2,14 @@
 eureka:
   client:
     serviceUrl:
-      defaultZone: http://kdc-registry.marathon.mesos:8761/eureka/
+      defaultZone: http://aronim-cloud-registry.marathon.mesos:8761/eureka/
 
 spring:
   redis:
-    host: kdc-redis.marathon.mesos
+    host: aronim-cloud-redis.marathon.mesos
     port: 6379
   rabbitmq:
-    host: kdc-rabbitmq.marathon.mesos
+    host: aronim-cloud-rabbitmq.marathon.mesos
     port: 5672
     username: kdc
     password: kdc
