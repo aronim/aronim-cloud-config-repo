@@ -1,9 +1,10 @@
 
 logging:
   level:
-    org.springframework: WARN
-    org.hibernate: WARN
     com.aronim.cloud: DEBUG
+    com.netflix: WARN
+    org.hibernate: WARN
+    org.springframework: WARN
 
 security:
   user:
