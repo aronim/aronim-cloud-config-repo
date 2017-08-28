@@ -31,5 +31,9 @@ spring:
     username: kdc
     password: kdc
     virtualHost: kdc
+  stream:
+    kafka:
+      binder:
+        brokers: localhost
   resources:
     cachePeriod: 604800 # 7 days
